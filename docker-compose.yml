@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: aaronhenao/listatareas-flask:v1  # Usa la imagen desde Docker Hub
+    image: aaronhenao/listatareas-flask:v1
     ports:
       - "5000:5000"
     restart: always
